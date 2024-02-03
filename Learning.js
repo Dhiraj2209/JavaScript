@@ -11,3 +11,13 @@ console.log(a**b); // ** Exponential operator
 let word1 = "Dhiraj";
 console.log(word1 + " Prajapati"); // Concatinating two string
 console.log(typeof(word1), typeof(a), typeof(b)); // Give type of variable
+
+function factorial(n){ // Function keyword to make function
+    if(n == 1 || n ==0 ){
+        return 1;
+    }
+
+    return n * factorial(n -1); // Recursive call
+}
+
+console.log(factorial(4));
