@@ -21,3 +21,6 @@ function factorial(n){ // Function keyword to make function
 }
 
 console.log(factorial(4));
+
+const person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"}; //Objects
+console.log(person.firstName + " " + person.lastName); // Accessing Object vaules
